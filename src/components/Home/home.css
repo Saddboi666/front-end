@@ -1,0 +1,22 @@
+.home-header {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    height: 7vh;
+    background-color: rgba(22, 74, 151, 0.466);
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.trip-table {
+    max-width: 70vw;
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    text-transform: capitalize;
+}
