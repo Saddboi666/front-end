@@ -1,0 +1,44 @@
+.dashboard {
+    margin: 10px auto;
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dashboard-grid {
+    display: grid;
+    row-gap: 15px;
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card {
+    color: whitesmoke;
+    text-align: center;
+    min-width: 35vw;
+    max-height: 40vh;
+    display: block;
+    justify-content: center;
+
+    background: linear-gradient(rgba(73, 8, 133, 0.678), lightblue);
+    box-sizing: border-box;
+    box-shadow: 0px 1px 0px 1px 5px rgb(0, 0, 0);
+}
+
+.content-card {
+    color: black;
+    font-weight: 400;
+    padding: 8px 4px;
+    display: inline-block;
+    margin: 10px auto;
+    width: 9vw;
+    height: 9vh;
+    justify-content: center;
+    background-color: transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 0px 1px 12px rgb(0, 0, 0);
+
+}

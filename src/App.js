@@ -2,7 +2,10 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Sidebar from './components/Sidebar/Sidebar';
-import Home from './components/Home/Home';
+import Reservations from './components/Home/Reservations';
+import Dashboard from './components/Dashboard/Dashboard';
+import Footer from './components/Footer/Footer';
+import StaffPage from './components/Pages/Staff';
 
 function App() {
   return (
@@ -12,9 +15,16 @@ function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path='/' element={<Dashboard />} />
+
+          <Route path='/reservations' element={<Reservations />} />
+
+          <Route path='/staff' element={<StaffPage />} />
         </Routes>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import { Spin, Table } from "antd";
 import React, { useEffect, useState } from "react";
-import "./home.css";
-export default function Home() {
+import "./reservations.css";
+export default function Reservations() {
     const result = [];
     const [filteredInfo, setFilteredInfo] = useState({});
     const [data, setData] = useState([]);

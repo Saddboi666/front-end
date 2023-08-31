@@ -7,12 +7,13 @@ import TravelExploreIcon from "@mui/icons-material/TravelExplore";
 // import { CalendarMonth } from "@mui/icons-material";
 // import { AddLocation } from "@mui/icons-material";
 // import { AccountCircle } from "@mui/icons-material";
+import { Person3 } from "@mui/icons-material";
 export const sideBarData = [
     {
         id: 0,
         icon: <HomeIcon />,
-        text: 'Home',
-        link: 'home',
+        text: 'Dashboard',
+        link: '/',
     },
     {
         id: 1,
@@ -20,4 +21,10 @@ export const sideBarData = [
         text: 'Reservations',
         link: 'reservations',
     },
+    {
+        id: 2,
+        icon: <Person3 />,
+        text: 'Staff',
+        link: 'staff',
+    }
 ]
